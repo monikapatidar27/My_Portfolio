@@ -1,0 +1,98 @@
+@import "./varibles";
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.Header{
+    width: 100%;
+    position: fixed;
+    height: 10vh;
+    z-index: 5;
+    // background-color: $back_color;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+   
+    .Header_name{
+        text-transform: capitalize;
+        font-size: 1.5rem;
+        // margin-left: 5rem;
+        color: $text_color;
+    }
+    .menus{
+        @media (max-width:650px) {
+            width: 100%;
+            position: fixed;
+            right: -100%;
+            transition: all ease-in-out 0.5s;
+            z-index: 5;
+            top: 65px;
+            background-color: #0D0066;
+        }
+        ul{
+            display: flex;
+            @media (max-width:650px) {
+                flex-direction: column;
+                margin: 0;
+                padding: 0;
+                // border: 2px solid green;
+            }
+            li{
+                list-style: none;
+                margin: 20px;
+                font-size: 1rem;
+                font-weight: bold;
+                cursor: pointer;
+                text-decoration: none;
+                color: $text_color;
+                transition: all ease-in-out 0.3s;
+                @media (max-width:650px){
+                    width: 100%;
+                    margin: 0;
+                    padding: 20px 0px;
+                    text-align: center;
+                }
+                
+                
+            }
+            :hover{
+                // border-bottom: 3px solid $hover_color;
+                color: $hover_color;
+                @media (max-width: 650px){
+                    background-color: #10B9F4;
+                }
+            }
+        }
+    }
+}
+
+//hambug
+.res_menu{
+    
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    // background-color: red;
+    height: 40px;
+    width: 40px;
+    color: $text_color;
+    top: 5px;
+    right: 20px;
+    @media (max-width:650px) {
+        display: block;
+    }
+    li{
+        list-style: none;
+    }
+}
+.header_fix{
+    background-color: #0D0066;
+}
+.showmenu{
+    right: 0% !important;
+}

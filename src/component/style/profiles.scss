@@ -1,0 +1,31 @@
+@import "./varibles.scss";
+.profile_right_side{
+    background-color: rgba(240, 247, 255, 0.8);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 660px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    @media (max-width:650px){
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        width: 481px;
+        margin: auto 50px;
+    }
+    .coding_profile{
+        color: $hover_color;
+       a{
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        
+       }
+       h2{
+        color: $hover_color;
+       }
+    }
+}

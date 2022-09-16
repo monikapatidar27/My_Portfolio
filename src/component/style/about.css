@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+.about h1 {
+  text-align: center;
+  padding: 5px;
+  color: #165fa3;
+}
+
+.about_section {
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 870px) {
+  .about_section {
+    flex-direction: column;
+    justify-content: center;
+    width: 550px;
+    margin: 0 20px 0 9px;
+  }
+}
+@media (max-width: 650px) {
+  .about_section {
+    width: 550px;
+    margin: 20px;
+  }
+}
+.about_section .about_left_side {
+  display: flex;
+  width: 250px;
+  padding: 30px;
+}
+.about_section .about_left_side ul {
+  background-image: linear-gradient(to right top, #10b9f4, #008dd9, #0060b9, #003593, #0d0066);
+  border-radius: 15px;
+  width: 350px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+@media (max-width: 870px) {
+  .about_section .about_left_side ul {
+    flex-direction: row;
+    justify-content: center;
+    height: 40px;
+    width: 800px;
+    padding: 6px;
+  }
+}
+.about_section .about_left_side ul li {
+  list-style: none;
+  color: black;
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.about_section .about_left_side ul li:hover {
+  color: #F41070;
+}
+@media (max-width: 870px) {
+  .about_section .about_left_side ul li {
+    width: 145px;
+  }
+}
+@media (max-width: 650px) {
+  .about_section .about_left_side ul li {
+    width: 130px;
+  }
+}
+.about_section .about_right_side {
+  background-color: rgba(240, 247, 255, 0.8);
+  border-radius: 15px;
+  display: flex;
+  width: 660px;
+  height: 300px;
+}
+@media (max-width: 650px) {
+  .about_section .about_right_side {
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    width: 481px;
+    margin: auto 50px;
+  }
+}
+.about_section .about_right_side .right_img img {
+  height: 250px;
+  padding: 20px;
+}
+@media (max-width: 650px) {
+  .about_section .about_right_side .right_img img {
+    padding-left: 150px;
+  }
+}
+.about_section .about_right_side .right_contain {
+  padding: 20px;
+}
+.about_section .about_right_side .right_contain p {
+  line-height: 20px;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+.about_section .about_right_side .right_contain h2, .about_section .about_right_side .right_contain h3 {
+  color: #F41070;
+}/*# sourceMappingURL=about.css.map */
