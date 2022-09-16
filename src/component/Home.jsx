@@ -31,7 +31,7 @@ const Home = () => {
               <FacebookIcon className="icons" /></a>
           </div>
           <div className='buttons'>
-            <Button variant="contained" >Resume</Button>
+          <Button variant="contained"><a className='resume' href='https://drive.google.com/file/d/1eEFGRL5TsBChYvc_WcRT-X-sp92XFDwa/view?usp=drivesdk' download='Monika.pdf' target='_blank'>Resume</a> </Button>
             <Link
               activeClass="active" to="Contact" spy={true}
               smooth={true} offset={-70} duration={1500}>

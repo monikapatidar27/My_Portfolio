@@ -3,6 +3,7 @@
   text-align: center;
   padding: 5px;
   color: #165fa3;
+  font-size: 3rem;
 }
 
 .about_section {
@@ -103,4 +104,13 @@
 }
 .about_section .about_right_side .right_contain h2, .about_section .about_right_side .right_contain h3 {
   color: #F41070;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #0a02f9 !important;
 }/*# sourceMappingURL=about.css.map */
