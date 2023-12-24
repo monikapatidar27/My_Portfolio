@@ -18,7 +18,7 @@ const Home = () => {
           {/* <div className='content'> */}
           <p>Hello There !!</p>
           <h1>This is <span>Monika Patidar</span></h1>
-          <p>Competitive Programmer and Web Developer</p>
+          <p>Mern Developer || Competitive Programmer</p>
 
           <div className='icon_img'>
             <a href="https://www.linkedin.com/in/monika-patidar-a8b687209/" target="_blank">

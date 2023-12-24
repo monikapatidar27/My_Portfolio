@@ -11,10 +11,10 @@ const Aboutme = () => {
             </div>
             <div className='right_contain'>
                 <h2>I'm Monika Patidar</h2>
-                <h3>Web Developer || Competitive Programmer</h3>
-                <p>I am a third year student pursuing her Bachelor of Technology in Information Technology from Indore Institute of Science and Technology.
+                <h3>Smart India Hackathon 2023 WINNER</h3>
+                <p>I am a final year student pursuing her Bachelor of Technology in Information Technology from Indore Institute of Science and Technology.
                     I'm a very enthusiastic coder who desires to learn and explore technical and problem solving skills. </p>
-                <p>3*at Codechef I reach 1612 rating.</p>
+                <p>Currently i am working as a intern at Qubited.</p>
                 <Link
                     activeClass="active" to="Contact" spy={true}
                     smooth={true} offset={-70} duration={1000}>
